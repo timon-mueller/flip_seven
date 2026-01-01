@@ -1,0 +1,33 @@
+game:
+  target_points: 200        # [cite: 2]
+  flip7_bonus: 15           # [cite: 80]
+  min_players: 3            # [cite: 197]
+  max_players: 18           # [cite: 197]
+  seed: 42
+
+deck:
+  numbers:                  # [cite: 23, 24]
+    0: 1
+    1: 1
+    2: 2
+    3: 3
+    4: 4
+    5: 5
+    6: 6
+    7: 7
+    8: 8
+    9: 9
+    10: 10
+    11: 11
+    12: 12
+  actions:                  # [cite: 49]
+    freeze: 3
+    second_chance: 3
+    flip_three: 3
+  bonuses:                  # [cite: 38, 39, 40]
+    plus_2: 1
+    plus_4: 1
+    plus_6: 1
+    plus_8: 1
+    plus_10: 1
+    multiplier_x2: 1
