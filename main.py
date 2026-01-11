@@ -9,12 +9,13 @@ def main():
         config = yaml.safe_load(f)
 
     # 2. Spieler erstellen
-    p1 = HumanAgent(player_id=0, name="Du")
-    p2 = HeuristicAgent(player_id=1, name="Computer 1")
-    p3 = HeuristicAgent(player_id=2, name="Computer 2")
+    p1 = HumanAgent(player_id=0, name="Timon")
+    p2 = HumanAgent(player_id=1, name="Hannah")
+    #p2 = HeuristicAgent(player_id=1, name="Computer 1")
+    #p3 = HeuristicAgent(player_id=2, name="Computer 2")
     
     # Als Dictionary an die Engine geben, damit der Zugriff per ID klappt
-    players_dict = {p.id: p for p in [p1, p2, p3]}
+    players_dict = {p.id: p for p in [p1, p2]}
 
     game = Game(list(players_dict.values()), config)
     

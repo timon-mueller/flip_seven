@@ -1,3 +1,22 @@
 .pdf
+
+# Python Bytecode
 __pycache__/
+*.py[cod]
+
+# Virtuelle Umgebungen
+venv/
+.venv/
+env/
+
+# Testing & Coverage
 .pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+
+# Konfiguration (optional, falls du lokale Test-Configs hast)
+config/local_settings.yaml
